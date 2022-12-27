@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <h2>Carrito de compras</h2>
+
+    {% if cart.products.exists  %}
+        <div class="col-8">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                        <th scope="col">Cantidad</th>
+                        <th scope="col">Precio</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    {% for product in cart.products %}
+                        <tr>
+                            <th>{{  }}</th>
+                        </tr>
+                    {% endfor %}
+
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col">
+
+        </div>
+    {% endif %}
+
+{% endblock %}

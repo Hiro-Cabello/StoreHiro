@@ -1,0 +1,62 @@
+[
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "title": "Polo",
+        "description": "Este polo es de la marca NIKE.",
+        "price": "50.00",
+        "slug": "polo",
+        "image": "products/Polo.png",
+        "created_at": "2022-07-18T01:12:54.137Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "title": "Gorro",
+        "description": "Gorro color negro estilo deportivo",
+        "price": "30.00",
+        "slug": "gorro",
+        "image": "products/Gorro.png",
+        "created_at": "2022-07-18T01:44:55.841Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "title": "Jogger",
+        "description": "Jogger de caballero color negro estilo urbano.",
+        "price": "30.00",
+        "slug": "jogger",
+        "image": "products/Chompa.png",
+        "created_at": "2022-07-18T01:45:24.423Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "title": "Zapatillas",
+        "description": "Zapatillas urbanas color negro nike",
+        "price": "400.00",
+        "slug": "zapatillas",
+        "image": "products/Zapatillas.png",
+        "created_at": "2022-07-18T01:45:57.037Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+        "title": "Zapatillas Jordan",
+        "description": "Zapatillas Nike Jordan estilo Urbano edici\u00f3n limitada.",
+        "price": "80.00",
+        "slug": "zapatillas-jordan",
+        "image": "products/Zapatillas_Jordan.png",
+        "created_at": "2022-07-18T01:46:40.260Z"
+    }
+}
+]
